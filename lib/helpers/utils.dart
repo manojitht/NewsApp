@@ -1,4 +1,4 @@
-import 'package:newsapp/models/category.dart';
+import 'package:newsapp/models/categories.dart';
 
 class Utils {
   static List<CategoryModel> getCategories() {

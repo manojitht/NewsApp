@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp/models/article.dart';
+import 'package:newsapp/models/articles.dart';
 import 'package:newsapp/styles/theme.dart' as style;
 import 'package:url_launcher/url_launcher.dart';
 

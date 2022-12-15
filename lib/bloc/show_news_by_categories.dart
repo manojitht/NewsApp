@@ -1,4 +1,4 @@
-import 'package:newsapp/models/article_response.dart';
+import 'package:newsapp/models/article_responses.dart';
 import 'package:newsapp/repository/repository.dart';
 import 'package:rxdart/rxdart.dart';
 

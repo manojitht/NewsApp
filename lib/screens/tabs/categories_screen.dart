@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:newsapp/helpers/utils.dart';
-import 'package:newsapp/models/category.dart';
-import 'package:newsapp/screens/category_details.dart';
+import 'package:newsapp/models/categories.dart';
+import 'package:newsapp/screens/show_categories.dart';
 
 class CategoriesScreen extends StatefulWidget {
   const CategoriesScreen({Key? key}) : super(key: key);

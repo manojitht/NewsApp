@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 
-import '../models/article_response.dart';
+import '../models/article_responses.dart';
 
 class NewsRepository {
   static String mainUrl = "https://newsapi.org/v2/";
-  final String apiKey = "5e7d1a6f32a346b68016c79aecb96fe8";
+  final String apiKey = "f501144b09a040f5993b31ca318c7275";
 
   final Dio _dio = Dio();
 

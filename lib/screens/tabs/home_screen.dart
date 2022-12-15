@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp/widgets/headline_slider.dart';
+import 'package:newsapp/widgets/headline_carousel_sliders.dart';
 import 'package:newsapp/widgets/hot_news.dart';
 
 class HomeScreen extends StatefulWidget {

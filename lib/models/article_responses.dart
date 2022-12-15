@@ -1,4 +1,4 @@
-import 'article.dart';
+import 'articles.dart';
 
 class ArticleResponse {
   final List<ArticleModel> articles;

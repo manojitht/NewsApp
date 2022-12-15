@@ -1,10 +1,10 @@
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
-import 'package:newsapp/bloc/search_bloc.dart';
-import 'package:newsapp/elements/loader_element.dart';
-import 'package:newsapp/models/article.dart';
-import 'package:newsapp/models/article_response.dart';
-import 'package:newsapp/screens/news_details.dart';
+import 'package:newsapp/bloc/search_bar.dart';
+import 'package:newsapp/elements/loader.dart';
+import 'package:newsapp/models/articles.dart';
+import 'package:newsapp/models/article_responses.dart';
+import 'package:newsapp/screens/news_information.dart';
 import 'package:timeago/timeago.dart' as timeago;
 import 'package:newsapp/styles/theme.dart' as style;
 

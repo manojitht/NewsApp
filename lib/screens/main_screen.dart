@@ -1,6 +1,6 @@
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
-import 'package:newsapp/bloc/bottom_navbar_bloc.dart';
+import 'package:newsapp/bloc/bottom_view_navigation_bar.dart';
 import 'package:newsapp/screens/tabs/categories_screen.dart';
 import 'package:newsapp/screens/tabs/home_screen.dart';
 import 'package:newsapp/screens/tabs/search_screen.dart';

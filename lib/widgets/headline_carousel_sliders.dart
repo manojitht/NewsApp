@@ -1,11 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:newsapp/bloc/get_top_headlines_bloc.dart';
-import 'package:newsapp/elements/error_element.dart';
-import 'package:newsapp/elements/loader_element.dart';
-import 'package:newsapp/models/article.dart';
-import 'package:newsapp/models/article_response.dart';
-import 'package:newsapp/screens/news_details.dart';
+import 'package:newsapp/bloc/top_news_headlines.dart';
+import 'package:newsapp/elements/error.dart';
+import 'package:newsapp/elements/loader.dart';
+import 'package:newsapp/models/articles.dart';
+import 'package:newsapp/models/article_responses.dart';
+import 'package:newsapp/screens/news_information.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 class HeadlinesSliderWidget extends StatefulWidget {

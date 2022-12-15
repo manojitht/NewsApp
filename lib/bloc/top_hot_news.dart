@@ -1,13 +1,13 @@
+import 'package:newsapp/models/article_responses.dart';
 import 'package:newsapp/repository/repository.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:newsapp/models/article_response.dart';
 
-class SearchBloc {
+class GetHotNewsBloc {
   final NewsRepository _newsRepository = NewsRepository();
   final BehaviorSubject<ArticleResponse> _subject = BehaviorSubject<ArticleResponse>();
 
-  search(String value) async {
-    ArticleResponse articleResponse = await _newsRepository.searchArticle(value);
+  getHotNews() async {
+    ArticleResponse articleResponse = await _newsRepository.getHotNews();
     _subject.sink.add(articleResponse);
   }
 
@@ -18,4 +18,4 @@ class SearchBloc {
   BehaviorSubject<ArticleResponse> get subject => _subject;
 }
 
-final searchBloc = SearchBloc();
+final getHotNewsBloc = GetHotNewsBloc();
